@@ -1,0 +1,61 @@
+﻿QWidget#toolWidget{
+    background-color: #A4E2C6;
+}
+QListWidget#bookListWidget{
+    border:none;
+    background-color:#C6F6C3;
+    alternate-background-color:#D3F6D1;
+    color:black;
+}
+QListWidget#bookListWidget::item{
+    border:none;
+    height: 40px;
+}
+QListWidget#bookListWidget::item:hover{
+    background:#AFEDAC
+}
+QListWidget#bookListWidget::item:selected:active{
+    background:#AFEDAC
+}
+QListWidget#bookListWidget::item:selected{
+    background:#FFCCB9;
+    color:black;
+}
+
+QPushButton#closeBtn{
+    background-repeat:no-repeat;
+    background-position:center;
+    background-image: url(:/images/skin/default/closeBtn.png);
+}
+QPushButton#closeBtn:hover{
+    background-image: url(:/images/skin/default/closeBtn_hover.png);
+}
+QPushButton#closeBtn:pressed{
+    background-image: url(:/images/skin/default/closeBtn_press.png);
+}
+QPushButton#minBtn{
+    background-repeat:no-repeat;
+    background-position:center;
+    background-image: url(:/images/skin/default/minBtn.png);
+}
+QPushButton#minBtn:hover{
+    background-image: url(:/images/skin/default/minBtn_hover.png);
+}
+QPushButton#minBtn:pressed{
+    background-image: url(:/images/skin/default/minBtn_press.png);
+}
+QPushButton#addBtn{
+    border:none;
+    background-color:#C6F6C3;
+    background-repeat:no-repeat;
+    background-position:center;
+    background-image: url(:/images/skin/default/addBtn.png);
+}
+QPushButton#addBtn:hover{
+    background-color:#AFEDAC;
+    background-image: url(:/images/skin/default/addBtn_hover.png);
+}
+QPushButton#addBtn:pressed{
+    background-color:#FFCCB9;
+    background-image: url(:/images/skin/default/addBtn_press.png);
+}
