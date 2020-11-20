@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/">
+        <file>style.qss</file>
+        <file>images/fische.ico</file>
+        <file>images/fische.png</file>
+        <file>images/skin/default/addBtn.png</file>
+        <file>images/skin/default/addBtn_hover.png</file>
+        <file>images/skin/default/addBtn_press.png</file>
+        <file>images/skin/default/closeBtn.png</file>
+        <file>images/skin/default/closeBtn_hover.png</file>
+        <file>images/skin/default/closeBtn_press.png</file>
+        <file>images/skin/default/minBtn.png</file>
+        <file>images/skin/default/minBtn_hover.png</file>
+        <file>images/skin/default/minBtn_press.png</file>
+    </qresource>
+</RCC>
